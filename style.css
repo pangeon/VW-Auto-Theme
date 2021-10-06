@@ -1,0 +1,272 @@
+/* GENERAL */
+.entry-content ul li {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #6b6b6b;
+  line-height: 20px;
+}
+.round-corners {
+  border-radius: 30px;
+}
+.gallery-center {
+  margin: auto 10%;
+}
+
+h1.vw-page-title {
+  /*   color: #ff5400;
+  margin-top: 2%;
+  font-family: Montserrat;
+  font-size: 25px; */
+  display: none;
+}
+h2 {
+  color: #ff5400;
+  margin-top: 2.5%;
+  text-align: center;
+}
+h5 {
+  color: #ff5400;
+}
+[class^="wp-block-"]:not(.wp-block-gallery) figcaption {
+  font-style: italic;
+  margin-bottom: 1.5em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+p > span.custom_desc {
+  font-size: 15px;
+}
+.footer {
+  color: black;
+  background: #1268b3;
+}
+.footer p {
+  margin-bottom: 0.5rem;
+}
+div.footer-2 a,
+h1.single-post-title,
+.custom_details {
+  display: none;
+}
+/* GENERAL */
+
+/* OFERTA */
+ul#oferta {
+  background-color: #bbb1;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 30px;
+  border: 1px solid #12b34c;
+  width: 80%;
+  margin: 2.5% auto;
+}
+ul#oferta li {
+  list-style-type: "✔";
+  padding-inline-start: 1ch;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 15px;
+}
+ul#oferta li::marker {
+  color: #12b34c;
+  font-size: 25px;
+}
+ul#oferta li i {
+  color: #ff5400;
+  font-size: 25px;
+  margin-left: 10px;
+}
+ul#vehicles {
+  background-color: #bbb1;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  padding-right: 3%;
+  border: 1px solid #12b34c;
+  width: 80%;
+  margin: 2.5% auto;
+}
+p#vehicles-desc {
+  background-color: #bbb1;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  border: 1px solid #12b34c;
+  width: 80%;
+  margin: 2.5% auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+ul#vehicles li {
+  font-size: 15px;
+  list-style-type: none;
+  text-align: justify;
+  margin-top: 10px;
+}
+ul#vehicles li li {
+  list-style-type: circle;
+  margin-top: 0;
+}
+ul#vehicles li i {
+  color: #ff5400;
+  font-size: 20px;
+  margin-right: 10px;
+}
+/* OFERTA */
+
+/* PRICE CONTAINER */
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+.columns-double {
+  float: left;
+  width: 47%;
+  padding: 2%;
+  margin: 3% 1%;
+  background-color: white;
+  border: 1px solid #eee;
+}
+.columns-double:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.columns-full {
+  width: 90%;
+  padding: 50px;
+  margin: 5% auto;
+  background-color: white;
+  border: 1px solid #eee;
+}
+.columns-full:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Pricing header */
+.price .header {
+  color: white;
+  font-size: 25px;
+  line-height: 1.25;
+}
+.header-color-green {
+  background-color: #12b34c;
+}
+.header-color-blue {
+  background-color: #0d8fff;
+}
+.header-color-orange {
+  background-color: #ff5400;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+.price li.offer-item {
+  font-size: 14px;
+  line-height: 1.25;
+  background-color: white;
+  text-align: left;
+  list-style-type: "✔";
+  list-style-position: inside;
+}
+.price li.offer-item::marker {
+  color: #12b34c;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+
+/* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+
+/* CONTACT */
+.entry-content ul.contact-list li {
+  font-size: 16px;
+  line-height: 25px;
+}
+/* CONTACT */
+@media only screen and (max-width: 600px) {
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8%;
+  }
+  .box h5 {
+    text-align: center;
+  }
+  .columns {
+    width: 100%;
+  }
+  .columns-double {
+    width: 100%;
+  }
+  .columns-full {
+    width: 100%;
+  }
+  .entry-content ul.contact-list li {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+  li.header.header-color-blue {
+    font-size: 16px;
+  }
+  li.header.header-color-green {
+    font-size: 16px;
+  }
+  li.header.header-color-orange {
+    font-size: 16px;
+  }
+}
