@@ -12,10 +12,25 @@
 .con_details i {
   color: #800000 !important;
 }
-.toggle-nav button,
+.toggle-nav button {
+	background-color: white;
+}
+.toggle-nav i {
+	color: #800000
+}
+.toggle-nav button:hover {
+	background-color: #800000;
+}
+.toggle-nav i:hover {
+	color: white;
+}
 .search-box i {
-  background-color: white;
-  color: #800000;
+	background-color: white;
+	color: #800000 
+}
+.search-box i:hover {
+	background-color: #800000;
+	color: white; 
 }
 .entry-content ul li {
   font-size: 13px;
