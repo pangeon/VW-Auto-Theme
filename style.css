@@ -1,4 +1,22 @@
 /* GENERAL */
+.logowrapper {
+  background-color: white;
+}
+.menubox {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(122deg, transparent 6%, #b30000 0%) repeat scroll 0 0;
+  width: 100%;
+  float: left;
+  background-size: 100% 100%;
+}
+.con_details i {
+  color: #800000 !important;
+}
+.toggle-nav button,
+.search-box i {
+  background-color: white;
+  color: #800000;
+}
 .entry-content ul li {
   font-size: 13px;
   letter-spacing: 1px;
@@ -11,12 +29,7 @@
 .gallery-center {
   margin: auto 10%;
 }
-
 h1.vw-page-title {
-  /*   color: #ff5400;
-  margin-top: 2%;
-  font-family: Montserrat;
-  font-size: 25px; */
   display: none;
 }
 h2 {
@@ -37,8 +50,17 @@ p > span.custom_desc {
   font-size: 15px;
 }
 .footer {
-  color: black;
-  background: #1268b3;
+  background: #b30000;
+  border-top: 1px solid orangered;
+}
+.footer p,
+.footer a,
+.footer h3,
+.footer em {
+  color: white !important;
+}
+.footer-2 {
+  background: #660000;
 }
 .footer p {
   margin-bottom: 0.5rem;
