@@ -1,36 +1,6 @@
 /* GENERAL */
-.logowrapper {
-  background-color: white;
-}
-.menubox {
-  background: rgba(0, 0, 0, 0)
-    linear-gradient(122deg, transparent 6%, #b30000 0%) repeat scroll 0 0;
-  width: 100%;
-  float: left;
-  background-size: 100% 100%;
-}
-.con_details i {
-  color: #800000 !important;
-}
-.toggle-nav button {
-	background-color: white;
-}
-.toggle-nav i {
-	color: #800000
-}
-.toggle-nav button:hover {
-	background-color: #800000;
-}
-.toggle-nav i:hover {
-	color: white;
-}
-.search-box i {
-	background-color: white;
-	color: #800000 
-}
-.search-box i:hover {
-	background-color: #800000;
-	color: white; 
+* {
+  box-sizing: border-box;
 }
 .entry-content ul li {
   font-size: 13px;
@@ -64,9 +34,105 @@ h5 {
 p > span.custom_desc {
   font-size: 15px;
 }
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+.columns-double {
+  float: left;
+  width: 47%;
+  padding: 2%;
+  margin: 3% 1%;
+  background-color: white;
+  border: 1px solid #eee;
+}
+.columns-double:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.columns-full {
+  width: 90%;
+  padding: 50px;
+  margin: 5% auto;
+  background-color: white;
+  border: 1px solid #eee;
+}
+.columns-full:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+/* GENERAL */
+
+
+/* HEADER */
+.logowrapper {
+  background-color: white;
+}
+/* HEADER */
+
+
+/* NAV MENU */
+.menubox {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(122deg, transparent 6%, #b30000 0%) repeat scroll 0 0;
+  width: 100%;
+  float: left;
+  background-size: 100% 100%;
+}
+.search-box i {
+	background-color: white;
+	color: #800000 
+}
+.con_details i {
+  color: #800000 !important;
+}
+.footer .custom-social-icons i {
+	color: #800000;
+	background-color: white;
+}
+.search-box i:hover {
+	background-color: #800000;
+	color: white; 
+}
+.toggle-nav button {
+	background-color: white;
+}
+.toggle-nav i {
+	color: #800000
+}
+.toggle-nav button:hover {
+	background-color: #800000;
+}
+.toggle-nav i:hover {
+	color: white;
+}
+/* NAV MENU */
+
+
+/* FOOTER */
 .footer {
   background: #b30000;
   border-top: 1px solid orangered;
+}
+.footer .custom-social-icons i {
+	color: #800000;
+	background-color: white;
+}
+.footer .custom-social-icons i:hover {
+	color: white;
+	background-color: #800000;
 }
 .footer p,
 .footer a,
@@ -85,9 +151,10 @@ h1.single-post-title,
 .custom_details {
   display: none;
 }
-/* GENERAL */
+/* FOOTER */
 
-/* OFERTA */
+
+/* OFFERT */
 ul#oferta {
   background-color: #bbb1;
   padding-top: 1%;
@@ -150,42 +217,10 @@ ul#vehicles li i {
   font-size: 20px;
   margin-right: 10px;
 }
-/* OFERTA */
+/* OFFERT */
 
-/* PRICE CONTAINER */
-* {
-  box-sizing: border-box;
-}
 
-/* Create three columns of equal width */
-.columns {
-  float: left;
-  width: 33.3%;
-  padding: 8px;
-}
-.columns-double {
-  float: left;
-  width: 47%;
-  padding: 2%;
-  margin: 3% 1%;
-  background-color: white;
-  border: 1px solid #eee;
-}
-.columns-double:hover {
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-}
-.columns-full {
-  width: 90%;
-  padding: 50px;
-  margin: 5% auto;
-  background-color: white;
-  border: 1px solid #eee;
-}
-.columns-full:hover {
-  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Style the list */
+/* PRICE */
 .price {
   list-style-type: none;
   border: 1px solid #eee;
@@ -194,13 +229,9 @@ ul#vehicles li i {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
-/* Add shadows on hover */
 .price:hover {
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
-
-/* Pricing header */
 .price .header {
   color: white;
   font-size: 25px;
@@ -215,8 +246,6 @@ ul#vehicles li i {
 .header-color-orange {
   background-color: #ff5400;
 }
-
-/* List items */
 .price li {
   border-bottom: 1px solid #eee;
   padding: 20px;
@@ -233,38 +262,12 @@ ul#vehicles li i {
 .price li.offer-item::marker {
   color: #12b34c;
 }
-
-/* Grey list item */
 .price .grey {
   background-color: #eee;
   font-size: 20px;
 }
+/* PRICE */
 
-/* The "Sign Up" button */
-.button {
-  background-color: #04aa6d;
-  border: none;
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-}
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.row:before,
-.row:after {
-  display: table;
-  content: " ";
-}
-.row:after {
-  clear: both;
-}
-
-/* Change the width of the three columns to 100%
-  (to stack horizontally on small screens) */
 
 /* CONTACT */
 .entry-content ul.contact-list li {
@@ -272,6 +275,9 @@ ul#vehicles li i {
   line-height: 25px;
 }
 /* CONTACT */
+
+
+/* MEDIA */
 @media only screen and (max-width: 600px) {
   .box {
     display: flex;
@@ -307,3 +313,4 @@ ul#vehicles li i {
     font-size: 16px;
   }
 }
+/* MEDIA */
