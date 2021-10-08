@@ -151,6 +151,10 @@ h1.single-post-title,
 .custom_details {
   display: none;
 }
+.footer ul li {
+    list-style-type: disc;
+    margin-left: 8%;
+}
 /* FOOTER */
 
 
@@ -301,6 +305,9 @@ ul#vehicles li i {
     font-size: 12px;
     line-height: 20px;
   }
+	p > span.custom_desc {
+		font-size: 14px;
+	}
 }
 @media screen and (min-width: 800px) and (max-width: 1280px) {
   li.header.header-color-blue {
@@ -312,5 +319,8 @@ ul#vehicles li i {
   li.header.header-color-orange {
     font-size: 16px;
   }
+	p > span.custom_desc {
+		font-size: 15px;
+	}
 }
 /* MEDIA */
