@@ -281,6 +281,53 @@ ul#vehicles li i {
 /* CONTACT */
 
 
+/* FORM */
+form.wpcf7-form {
+	margin-bottom: 2%;
+	width: 100%;
+	border: 1px solid #b30000;
+	padding: 1%;
+	border-radius: 20px;
+	background: #ffffff;
+}
+form.wpcf7-form p {
+	color: #b30000;
+	font-size: 16px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	text-transform: uppercase;
+	padding: 0.25%
+}
+form.wpcf7-form input[type="text"],
+form.wpcf7-form input[type="email"],
+form.wpcf7-form
+textarea {
+	margin: 0;
+	background: #fafafa;
+	border-radius: 10px;
+}
+form.wpcf7-form input[type="submit"] {
+	margin: 0;
+	background: #b30000;
+	color: white;
+	border: none;
+  margin: auto;
+	width: 60%;
+}
+form.wpcf7-form input[type="submit"]:hover {
+	background: white;
+	color: #b30000;
+	border: 1px solid #b30000;
+}
+.wpcf7-not-valid-tip {
+	color: blue;
+	font-weight: bolder;
+	font-size: 12px;
+	padding-top: 1%;
+}
+/* FORM */
+
+
 /* MEDIA */
 @media only screen and (max-width: 600px) {
   .box {
