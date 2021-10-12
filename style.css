@@ -134,6 +134,38 @@ p > span.custom_desc {
 }
 /* NAV MENU */
 
+
+/* MAIN */
+.honored p {
+	text-align: justify;
+}
+.honored strong {
+	color: orangered;
+}
+.honored ul {
+	list-style-type: none;
+	padding: 0;
+}
+.honored ul li {
+	letter-spacing: 0;
+	font-size: 16px;
+	line-height: 2;
+	padding-left: 3em;
+}
+.honored ul li::before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; 
+  width: 1.3em;
+	color: #800000;
+}
+.intro {
+	width: 90%;
+	margin: 2% auto !important
+}
+
+
 /* FOOTER */
 .footer {
   background: #b30000;
