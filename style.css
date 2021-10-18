@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .wp-block-cover {
-  margin-bottom: 2%;
+	margin-bottom: 2%;
 }
 .entry-content ul li {
   font-size: 13px;
@@ -21,7 +21,7 @@ h1.vw-page-title {
   display: none;
 }
 h2 {
-  color: #ff5400;
+  color: #b30000;
   margin-top: 2.5%;
   text-align: center;
 }
@@ -134,25 +134,26 @@ p > span.custom_desc {
 }
 /* NAV MENU */
 
-
 /* MAIN */
-.honored p {
+#honored p {
 	text-align: justify;
+	line-height: 1.6;
+	font-size: 1em
 }
-.honored strong {
+#honored strong {
 	color: orangered;
 }
-.honored ul {
+#honored ul {
 	list-style-type: none;
 	padding: 0;
 }
-.honored ul li {
-	letter-spacing: 0;
+#honored ul li {
+	letter-spacing: 1px;
 	font-size: 16px;
 	line-height: 2;
 	padding-left: 3em;
 }
-.honored ul li::before {
+#honored ul li::before {
   content: "\f00c";
   font-family: FontAwesome;
   display: inline-block;
@@ -164,7 +165,7 @@ p > span.custom_desc {
 	width: 90%;
 	margin: 2% auto !important
 }
-
+/* MAIN */ 
 
 /* FOOTER */
 .footer {
@@ -204,11 +205,11 @@ h1.single-post-title,
 
 /* OFFERT */
 ul#oferta {
-  background-color: #bbb1;
+  background-color: white;
   padding-top: 1%;
   padding-bottom: 1%;
-  border-radius: 30px;
-  border: 1px solid #12b34c;
+  border-radius: 5px;
+  border: 1px solid #b30000;
   width: 80%;
   margin: 2.5% auto;
 }
@@ -220,7 +221,7 @@ ul#oferta li {
   font-size: 15px;
 }
 ul#oferta li::marker {
-  color: #12b34c;
+  color: orangered;
   font-size: 25px;
 }
 ul#oferta li i {
@@ -229,25 +230,20 @@ ul#oferta li i {
   margin-left: 10px;
 }
 ul#vehicles {
-  background-color: #bbb1;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  border-radius: 10px;
-  padding-right: 3%;
-  border: 1px solid #12b34c;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #b30000;
   width: 80%;
   margin: 2.5% auto;
+	padding: 5%;
 }
 p#vehicles-desc {
-  background-color: #bbb1;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  border-radius: 10px;
-  border: 1px solid #12b34c;
+  background-color: white;
+	padding: 5%;
+  border-radius: 5px;
+  border: 1px solid #b30000;
   width: 80%;
   margin: 2.5% auto;
-  padding-left: 10px;
-  padding-right: 10px;
   font-size: 15px;
 }
 ul#vehicles li {
