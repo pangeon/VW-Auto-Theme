@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .wp-block-cover {
-  margin-bottom: 2%;
+	margin-bottom: 2%;
 }
 .entry-content ul li {
   font-size: 13px;
@@ -18,9 +18,6 @@
   margin: auto 10%;
 }
 .choose-us-section figure:hover {
-  background-color: #b30000;
-}
-figure.aligncenter.size-large::after:hover {
   background-color: #b30000;
 }
 h1.vw-page-title {
@@ -142,34 +139,34 @@ p > span.custom_desc {
 
 /* MAIN */
 #honored p {
-  text-align: justify;
-  line-height: 1.6;
-  font-size: 1em;
+	text-align: justify;
+	line-height: 1.6;
+	font-size: 1em
 }
 #honored strong {
-  color: orangered;
+	color: orangered;
 }
 #honored ul {
-  list-style-type: none;
-  padding: 0;
+	list-style-type: none;
+	padding: 0;
 }
 #honored ul li {
-  letter-spacing: 1px;
-  font-size: 16px;
-  line-height: 2;
-  padding-left: 3em;
+	letter-spacing: 1px;
+	font-size: 16px;
+	line-height: 2;
+	padding-left: 3em;
 }
 #honored ul li::before {
   content: "\f00c";
   font-family: FontAwesome;
   display: inline-block;
-  margin-left: -1.3em;
+  margin-left: -1.3em; 
   width: 1.3em;
-  color: #800000;
+	color: #800000;
 }
 .intro {
-  width: 90%;
-  margin: 2% auto !important;
+	width: 90%;
+	margin: 2% auto !important
 }
 /* MAIN */
 
@@ -179,7 +176,6 @@ p > span.custom_desc {
 	background-color: white;
 	margin: 2% auto;
 	border: 1px solid #eee;
-	padding: 5%;
 }
 .fa-star:before {
 	color: #b30000;
@@ -194,7 +190,7 @@ p > span.custom_desc {
 	margin-left: 3%;
 	margin-right: 3%; 
 }
-.client-title h5{
+.client-title h2{
 	color: #b30000;
 }
 .cl {
@@ -217,10 +213,9 @@ p > span.custom_desc {
 .client p {
 	margin-top: 5%;
   font-size: 13px;
-	text-align: justify;
 }
 .img-cm {
-  width: 80px;
+  width: 50px;
   border-radius: 30px;
 }
 .right-area a {
@@ -296,17 +291,18 @@ ul#vehicles {
   border: 1px solid #b30000;
   width: 80%;
   margin: 2.5% auto;
-  padding: 5%;
+	padding: 5%;
 }
 p#vehicles-desc {
   background-color: white;
-  padding: 5%;
+	padding: 5%;
   border-radius: 5px;
   border: 1px solid #b30000;
   width: 80%;
   margin: 2.5% auto;
   font-size: 15px;
 }
+
 ul#vehicles li {
   font-size: 15px;
   list-style-type: none;
@@ -444,7 +440,7 @@ form.wpcf7-form input[type="submit"]:hover {
 }
 .cards .card .text {
   padding: 0 25px 25px;
-  text-align: justify;
+  text-align: center;
   font-size: 14px;
 }
 .cards .card .text h3 {
@@ -461,6 +457,11 @@ form.wpcf7-form input[type="submit"]:hover {
   border-radius: 100%;
   padding: 2%;
 }
+.cards .card img:hover {
+  filter: sepia(40%);
+	padding: 0%;
+	border: 1px solid white;
+	transition-duration: 0.25s;
 /* TEAM */
 
 /* MEDIA */
