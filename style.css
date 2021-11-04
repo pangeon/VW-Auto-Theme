@@ -420,6 +420,106 @@ form.wpcf7-form input[type="submit"]:hover {
 }
 /* FORM */
 
+/* FORM - RANGE INPUT */
+input[type=range] {
+  width: 100%;
+  margin: 3.8px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  background: rgba(123, 0, 0, 0.3);
+  border: 0.2px solid #010101;
+  border-radius: 1.3px;
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -4px;
+  width: 33px;
+  height: 16px;
+  background: #ffffff;
+  border: 1.9px solid #ff0000;
+  border-radius: 16px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ff0606;
+}
+input[type=range]::-moz-range-track {
+  background: rgba(123, 0, 0, 0.3);
+  border: 0.2px solid #010101;
+  border-radius: 1.3px;
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+  width: 33px;
+  height: 16px;
+  background: #ffffff;
+  border: 1.9px solid #ff0000;
+  border-radius: 16px;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 4.8px 0;
+  color: transparent;
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+}
+input[type=range]::-ms-fill-lower {
+  background: #000000;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+}
+input[type=range]::-ms-fill-upper {
+  background: rgba(123, 0, 0, 0.3);
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+}
+input[type=range]::-ms-thumb {
+  width: 33px;
+  height: 16px;
+  background: #ffffff;
+  border: 1.9px solid #ff0000;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: 0px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(123, 0, 0, 0.3);
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #ff0606;
+}
+@supports (-ms-ime-align:auto) {
+  input[type=range] {
+    margin: 0;
+  }
+}
+#input_scale {
+	display: flex;
+  align-items: stretch;
+	margin-bottom: 3%;
+}
+#input_scale div {
+	background-color: #b30000;
+	color: white;
+	width: 100%;
+	border: 1px solid white;
+  text-align: center;
+}
+/* FORM - RANGE INPUT */
+
 /* TEAM */
 .cards {
   display: flex;
@@ -462,6 +562,8 @@ form.wpcf7-form input[type="submit"]:hover {
 	padding: 0%;
 	border: 1px solid white;
 	transition-duration: 0.25s;
+
+}
 /* TEAM */
 
 /* MEDIA */
