@@ -157,7 +157,8 @@ p > span.custom_desc {
 	padding-left: 3em;
 }
 #honored ul li::before {
-  content: "\f00c";
+  content: "✔";
+	font-weight: bolder;
   font-family: FontAwesome;
   display: inline-block;
   margin-left: -1.3em; 
